@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px dotted red; */
+}
+
+body > a {
+    position: absolute;
+}
+
+#instagram img, #facebook img{
+    width: 40px;
+}
+
+#instagram {
+    top: 10px;
+    right: 10px;
+}
+#facebook {
+    top: 10px;
+    right: 65px
+}
+
+header {
+    padding-top: 10px;
+    height: 200px;
+    box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.41);
+    position: relative;
+    text-align: center;
+}
+
+header img {
+
+    width: 400px;
+
+    /* font-weight: bold;
+    font-size: 40px;
+    margin: 0px;
+    padding: 20px; */
+
+}
+
+header h3 {
+    text-align: center;
+    font-size: 21px;
+    color: black;
+    margin: 20px;
+}
+
+section h2 {
+    /* border: 1px outset #009688; */
+    font-size: 40px;
+    text-align: center;
+    color: #a73dbd;
+    text-shadow: 1px 1px gray;
+
+}
+
+body {
+    margin: 0px;
+    /* background-color: rgb(186, 196, 201); */
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: #009688;
+    background-image: linear-gradient(to top, #009688, #80d3cb);
+
+}
+
+
+nav div {
+    width: 100%;
+    height: 68px;        
+    padding: 1px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px 0px;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline;
+    padding: 10px 50px;
+
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    vertical-align: -webkit-baseline-middle;
+    
+} 
+
+nav a:hover {
+    color: #a73dbd;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    margin: 100px 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: sans-serif;
+     
+}
+
+div p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 20px;
+    border: 5px double gray;
+    width: 80%;
+    padding: 10px;
+    margin: 170px;
+    margin-top: 60px; 
+}
+
+.slika {
+    float: right;
+    margin: 15px;
+}
+
+
+div.slike {
+    object-position: center;
+    margin-left: 25%;
+}
+
+#uslugespisak {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: 80px;
+
+}
+
+#strelica {
+    position: fixed;
+    right: 0.3cm;
+    bottom: 4cm;
+    opacity: 60%;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+form {
+    text-align: center;
+   
+}
+
+input {
+    width: 410px;
+    height: 25px;
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #009688;
+    background-image: linear-gradient(to top, #009688, #80d3cb);
+    height: 160px;
+}
+
+footer a:hover {
+    color: #a73dbd;
+}
+
+footer ul {
+    width: 300px;
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 20px;
+    float: left;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 500px;
+     
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin-top: -10px;
+    border: transparent;
+    background-color: white;
+}
+
+a img {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
